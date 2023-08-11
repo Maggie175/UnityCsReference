@@ -21,7 +21,7 @@ namespace UnityEngine
         public static SortingLayer[] layers
         {
             get
-            {
+            { 
                 int[] ids = GetSortingLayerIDsInternal();
                 SortingLayer[] layers = new SortingLayer[ids.Length];
                 for (int i = 0; i < ids.Length; i++)
